@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Our Pricing</h1>
+      </header>
+
+      <div class="pricing">
+        <span>Annually</span>
+        <label class="switch">
+          <input type="checkbox" id="pricing" />
+          <span class="slider"></span>
+        </label>
+        <span>Monthly</span>
+      </div>
+
+      <!-- card -->
+      <section class="card-container">
+        <article class="card">
+          <div class="card-content">
+            <h3 class="card-title">basic</h3>
+            <p class="monthly"><span>&dollar;</span>19.99</p>
+            <p class="annually hide"><span>&dollar;</span>199.99</p>
+            <p class="info">500 GB Storage</p>
+            <p class="info">2 Users Allowed</p>
+            <p class="info last">Send up to 3 GB</p>
+            <a href="#" class="card-button">Learn More</a>
+            <!-- card end-->
+          </div>
+        </article>
+        <!-- card -->
+        <article class="card pro">
+          <div class="card-content">
+            <h3 class="card-title pro">professional</h3>
+            <p class="monthly pro"><span>&dollar;</span>24.99</p>
+            <p class="annually hide pro"><span>&dollar;</span>249.99</p>
+            <p class="info">1 TB Storage</p>
+            <p class="info">5 Users Allowed</p>
+            <p class="info last">Send up to 10 GB</p>
+            <a href="#" class="card-button pro">Learn More</a>
+            <!-- card end-->
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-content">
+            <h3 class="card-title">master</h3>
+            <p class="monthly"><span>&dollar;</span>39.99</p>
+            <p class="annually hide"><span>&dollar;</span>399.99</p>
+            <p class="info">2 TB Storage</p>
+            <p class="info">10 Users Allowed</p>
+            <p class="info last">Send up to 20 GB</p>
+            <a href="#" class="card-button">Learn More</a>
+            <!-- card end-->
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
